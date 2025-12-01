@@ -42,7 +42,7 @@ def main():
     df['Polarity'] = polarities
 
     # Save results to a new CSV
-    output_filename = "CBS_nba_espn_sentiment.csv"
+    output_filename = "CBS_nba_sentiment.csv"
     df.to_csv(output_filename, index=False)
     print(f"Sentiment analysis complete. Results saved to '{output_filename}'.")
 
